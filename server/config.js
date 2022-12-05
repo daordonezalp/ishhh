@@ -3,7 +3,7 @@ const  mongoose = require("mongoose");
 
 
 //Assign MongoDB connection string to Uri and declare options settings
-const uri = `mongodb+srv://${process.env.REACT_APP_DB_USER}:${process.env.REACT_APP_DB_PASS}@todocluster.4vnhp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`
+const uri = `mongodb+srv://danielordo123:danielordo123@cluster0.udv8ed4.mongodb.net/?retryWrites=true&w=majority`
 
 // Declare a variable named option and assign optional settings
 const  options = {
